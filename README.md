@@ -1,8 +1,6 @@
 # PYTHON ANGULARBOOK API
 
-This code will clone itself and insert it into other py/pyw scripts that are in the same directory
-
-The functionality of the other scripts will be the same, but with an addition of the virus that repeats the same action of cloning in other scripts
+This code is an API to provide data to the AngularBook application
 
 ## Getting Started
 
@@ -12,20 +10,26 @@ These instructions will get you a copy of the project up and running on your loc
 
 ```
 python  ^3.8
+poetry ^1.1.4
+Flask ^1.1.2
+Flask-Cors ^3.0.9
+Flask-RESTful ^0.3.8
+pymongo ^3.11.2
 ```
 
 ### Installing
 
-This code just need python to run.
+To install all that you will need
 
+```
+python -m poetry install
+``` 
 ## Run
 
 ```
 python main.py
 ```
-
-To see the effectiveness of this command I added 2 (two) files file_1.py and file_2.pyw which are empty, if you want you can add some code inside them, so that you can see what the main code really does
-
+This command will start the server
 ## Authors
 
 * **Anderson F lima**
