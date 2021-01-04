@@ -24,10 +24,12 @@ To install all that you will need
 ```
 python -m poetry install
 ``` 
+This command will generate a virtual env for this project
+
 ## Run
 
 ```
-python main.py
+poetry run main.py
 ```
 This command will start the server
 ## Authors
